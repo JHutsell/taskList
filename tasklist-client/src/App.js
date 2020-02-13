@@ -15,8 +15,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="https://codingthesmartway.com" target="_blank">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="http://justinhutsell.com" target="_blank">
               <img src={logo} width="30" height="30" alt="CodingTheSmartWay.com" />
             </a>
             <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
