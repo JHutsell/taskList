@@ -34,13 +34,13 @@ export default class CreateTodo extends Component {
                     <input onChange={ this.handleInputChange } value={ this.state.todo_description } type="text" name="todo_description" />
                     <h4>Priority</h4>
                     <label for="Low"> Low 
-                    <input type="radio" onChange={ this.handleRadioSelection } value="Low" checked={ this.state.todo_priority === "Low"}/>
+                        <input type="radio" onChange={ this.handleRadioSelection } value="Low" checked={ this.state.todo_priority === "Low"}/>
                     </label>
                     <label for="Medium"> Medium
-                    <input type="radio" onChange={ this.handleRadioSelection } value="Medium" checked={ this.state.todo_priority === "Medium"}/>
+                        <input type="radio" onChange={ this.handleRadioSelection } value="Medium" checked={ this.state.todo_priority === "Medium"}/>
                     </label>
                     <label for="High"> High
-                    <input type="radio" onChange={ this.handleRadioSelection } value="High" checked={ this.state.todo_priority === "High"}/>
+                        <input type="radio" onChange={ this.handleRadioSelection } value="High" checked={ this.state.todo_priority === "High"}/>
                     </label><br />
                     <Button type="submit" variant="primary">Create New Task</Button>
                 </form>
